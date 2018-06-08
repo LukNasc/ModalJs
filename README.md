@@ -23,15 +23,19 @@
     </ul> 
 
 <h3>Versão do Plugin</h3>
-    -> <b>V0.1 - 07/06/18</b>
+    -> <b>V0.1 - 07/06/18
+    -> <b>V0.2 - 08/06/18</b>
 
 <h3>Changelog</h3>
     <ul>
-        <li>→ Modal funcionando 100%</li>
-        <li>→ Modal Head Adicionada</li>
-        <li>→ Modal Footer Adicionado</li>
-        <li>→ Efeito fadein adicionado</li>
+        <li>→ Cores no Head e Footer</li>
+        <li>→ Novas Transições adicionadas</li>
     </ul>
 <br>
+<h3>Bugs encontrados e ainda a serem corrigidos</h3>
+    <ul>
+        <li>→Mal funcionamento de transição do modal</li>
+    </ul>
+    <br>
 <h2>Autor</h2>
     <b>Lucas Nascimento</b>
