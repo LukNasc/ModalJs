@@ -1,5 +1,5 @@
 # ModalJs
-Plugin de modal apenas com JavaScript nada de Outras Bibliotecas
+<h1>Plugin de modal apenas com JavaScript nada de Outras Bibliotecas</h1>
 
 Início do projeto
     -> 07/06/2018
