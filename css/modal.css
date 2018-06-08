@@ -1,0 +1,57 @@
+   /* animation */
+   @keyframes fade{
+      0%{
+          opacity: 0;
+
+      }
+      100%{
+          opacity: 1;
+      }
+   }
+
+   /* background-modal */
+   .modal{
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:rgba(000, 000, 000, 0.6); 
+    display: none; /*Esconder o modal*/
+}
+/* header */
+.header{        
+    border-bottom:#ccc solid 2px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 10px; 
+}
+.footer{
+    padding:10px;
+    margin-top:25px;
+    border-top: #ccc solid 2px;
+    height: 50px;
+}
+.modal-content{
+    background: white;
+    margin: 15px auto;
+    padding:20px;
+    border:1px;
+    width: 80%;
+    animation-name: fade;
+    animation-duration: 1;
+    animation-duration: 1s;
+}
+.fechar{
+    float:right;
+    color:#ccc;
+    font-size:50px;
+    font-weight: bold;
+}
+.fechar:hover,
+.fechar:focus{
+    color: #a00;
+    cursor: pointer;
+}
