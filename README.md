@@ -1,19 +1,21 @@
 # ModalJs
-<h1>Plugin de modal apenas com JavaScript nada de Outras Bibliotecas</h1>
+<h2>Plugin de modal apenas com JavaScript nada de Outras Bibliotecas</h2>
 
-Início do projeto
-    -> 07/06/2018
-    Fortaleza/CE
+<h3>Início do projeto<h3>
+    -> <b>07/06/2018</b>
+    -> <b>Fortaleza/CE</b>
 
-Desenvolvedor
-    -> Lucas Nascimento
-    -> 17 anos
+<h3>Desenvolvedor<h3>
+    -> <b>Lucas Nascimento</b>
+    -> <b>17 anos</b>
 
-Versão do Plugin
-    ->V0.1 - 07/06/18
+<h3>Versão do Plugin</h3>
+    -> <b>V0.1 - 07/06/18</b>
 
-changelog
-    → Modal funcionando 100%
-    → Modal Head Adicionada
-    → Modal Footer Adicionado
-    → Efeito fadein adicionado
+<h3>Changelog</h3>
+    <b>
+	→ Modal funcionando 100%
+    	→ Modal Head Adicionada
+    	→ Modal Footer Adicionado
+    	→ Efeito fadein adicionado
+    </b>
