@@ -1,14 +1,37 @@
    /* animation */
-   @keyframes fade{
+   @keyframes subir{
       0%{
+            bottom: -400px;
           opacity: 0;
 
       }
       100%{
+          bottom:0px;
           opacity: 1;
       }
    }
+   /* animação acima, é a animação usada na hora de abrir o modal */
+   @keyframes decer{
+    0%{
+        top: 0px;
+        opacity: 1;
 
+    }
+    100%{
+        top:400px;
+        opacity: 0;
+    }
+ }
+   @keyframes background-fadin{
+       0%{
+           background-color: transparent;
+       }
+       100%{
+        background-color:rgba(000, 000, 000, 0.6);
+        display: none; 
+       }
+   }
+   /* A animação acima, é a animação usada para o background do modal entrar suavimente */
    /* background-modal */
    .modal{
     position: fixed; 
@@ -18,40 +41,48 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color:rgba(000, 000, 000, 0.6); 
     display: none; /*Esconder o modal*/
+    background-color:rgba(000, 000, 000, 0.6); 
+    animation-name: background-fadin;
+    animation-duration: 1s;
 }
 /* header */
 .header{        
-    border-bottom:#ccc solid 2px;
+    border-bottom:#000 solid 2px;
     height: 50px;
     margin-bottom: 25px;
     padding: 10px; 
+    background: #a00;
+}
+.modal-body{
+    padding: 20px;
 }
 .footer{
     padding:10px;
     margin-top:25px;
-    border-top: #ccc solid 2px;
+    border-top: #000 solid 2px;
     height: 50px;
+    background: #a00;
 }
 .modal-content{
     background: white;
     margin: 15px auto;
-    padding:20px;
     border:1px;
     width: 80%;
-    animation-name: fade;
+    animation-name: subir;
     animation-duration: 1;
     animation-duration: 1s;
+    position: relative;
 }
 .fechar{
     float:right;
-    color:#ccc;
+    color:#fff;
     font-size:50px;
     font-weight: bold;
+    margin-top:-20px; 
 }
 .fechar:hover,
 .fechar:focus{
-    color: #a00;
+    color: #000;
     cursor: pointer;
 }
