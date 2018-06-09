@@ -23,9 +23,11 @@
     </ul> 
 
 <h3>Versão do Plugin</h3>
-    <a href="https://github.com/LukNasc/ModalJs/tree/94d42b90e12db56957be31e824254d3967480d7d">-> <b>V0.1 - 07/06/18</b></a>
-    <p>→ Para uma melhor experiencia com o modal, utilize esta versão</p>
-    -> <b>V0.2 - 08/06/18</b>
+    <ul>
+        <a href="https://github.com/LukNasc/ModalJs/tree/94d42b90e12db56957be31e824254d3967480d7d"><li><b>V0.1 - 07/06/18</b></li></a>
+        <li><b>V0.2 - 08/06/18</b></li>
+    </ul>
+    <b>Obs: Para melhor experiência om o modal, utilize a versão 0.1</b>
 
 <h3>Changelog</h3>
     <ul>
